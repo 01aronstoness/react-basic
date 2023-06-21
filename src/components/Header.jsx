@@ -19,12 +19,12 @@ const user = [
     image:
       "https://render.fineartamerica.com/images/rendered/square-dynamic/small/images/artworkimages/mediumlarge/3/ironman-marvel-samuel-whitton.jpg",
   },
-//   {
-//     name: "Learn & Teach",
-//     deacription: "Welcome to Vue",
-//     image:
-//       "https://th.bing.com/th/id/OIP.HZAPZXSC1BxpUQMotMHVpQHaHL?pid=ImgDet&w=2550&h=2473&rs=1",
-//   },
+  {
+    name: "Learn & Teach",
+    deacription: "Welcome to Vue",
+    image:
+      "https://th.bing.com/th/id/OIP.HZAPZXSC1BxpUQMotMHVpQHaHL?pid=ImgDet&w=2550&h=2473&rs=1",
+  },
 ];
 
 const Header = () => {
@@ -41,7 +41,7 @@ const Header = () => {
         );
       })}
 
-<button type="button" class="btn btn-primary">Primary</button>
+{/* <button type="button" class="btn btn-primary">Primary</button>
 <button type="button" class="btn btn-secondary">Secondary</button>
 <button type="button" class="btn btn-success">Success</button>
 <button type="button" class="btn btn-danger">Danger</button>
@@ -50,7 +50,7 @@ const Header = () => {
 <button type="button" class="btn btn-light">Light</button>
 <button type="button" class="btn btn-dark">Dark</button>
 
-<button type="button" class="btn btn-link">Link</button>
+<button type="button" class="btn btn-link">Link</button> */}
       {/* 
       <img src={user[0].image} />
       <p>{user[0].deacription}</p>
