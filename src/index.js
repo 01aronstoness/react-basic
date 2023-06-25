@@ -1,23 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-
-import Header from './components/Header';
-import Slider from './components/Slider';
-import Counter from './components/Counter';
-import PrintName from './components/PrintName';
-import Form from './components/Form';
+import{ BrowserRouter } from 'react-router-dom'
+import Routing from './routes'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
   <React.StrictMode>
-  
-    <Form />
-    
-    {/* <Header /> */}
-     {/* <Slider/> */}
+    <BrowserRouter>
+    <Routing />
+    </BrowserRouter>
   </React.StrictMode>
 );
 
